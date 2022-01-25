@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-      <title>Atrium Physiotherapy | Contact Us</title>
+      <title>Atrium Physiotherapy | Appointment</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Get in contact with Atrium Physiotherapy located in the Calgary Area, we are just one phone call or email away.">
+    <meta name="description" content="Book your next appointment with Atrium Physiotherapy Now! easily accessible in Calgary">
    
+    
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
@@ -67,97 +68,131 @@
             <p class="button-custom order-lg-last mb-0"><a href="appointment.php" class="btn btn-secondary py-2 px-3">Make An Appointment</a></p>
             <div class="collapse navbar-collapse" id="ftco-nav">
               <ul class="navbar-nav mr-auto">
-                <li  class="nav-item"><a href="index.php" class="nav-link pl-0">Home</a></li>
+                <li class="nav-item"><a href="index.php" class="nav-link pl-0">Home</a></li>
                 <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
                <!--<li class="nav-item"><a href="doctor.html" class="nav-link">Doctors</a></li>-->
                 <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
                 <!--<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>-->
-                	<li class="nav-item"><a href="blog.php" class="nav-link">Blogs</a></li>
-                <li class="nav-item active"><a href="contact.php" class="nav-link">Contact</a></li>
+               	<li class="nav-item"><a href="blog.php" class="nav-link">Blogs</a></li>
+                <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
                 <li class="nav-item"><a href="education.html" class="nav-link">Patient Education</a></li>
               </ul>
             </div>
           </div>
         </nav>
+        <!-- END nav -->
     
-    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_3.jpg');" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
           <div class="col-md-9 ftco-animate text-center">
-            <h1 class="mb-2 bread">Contact Us</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact</span></p>
+            <h1 class="mb-2 bread">Appointment</h1>
+            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Appointment <i class="ion-ios-arrow-forward"></i></span></p>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="ftco-section ftco-no-pt ftco-no-pb contact-section">
-			<div class="container">
-				<div class="row d-flex align-items-stretch no-gutters">
-					<div class="col-md-6 p-4 p-md-5 order-md-last bg-light">
-          <span id="outputMessage"> </span>			  
-	          <form  method='post' role="form" action="ajax/sendEmail.php" enctype="multipart/form-data" id="myform" class=" ftco-animate">
-              <p>For any questions please send us a email or call us directly</p>
-              <div class="form-group">
-                <input type="text" class="form-control" name='name' placeholder="Your Name">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name='phone' placeholder="Your Phone">
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name='email' placeholder="Your Email">
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name='service' placeholder="Subject">
-              </div>
-              <div class="form-group">
-                <textarea name="pMessage" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-              </div>
-              <input type="text" name='dateC'  style="display: none;" value="2022-01-22" placeholder="Date">
-              <div class="form-group">
-              <input type="submit" name="submitForm" value="Send Message" id='submitEmail' class="btn btn-secondary py-3 px-4">
-              </div>
-            </form>
-					</div>
-					<div class="col-md-6 d-flex align-items-stretch">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2515.674848684543!2d-114.06532528425187!3d50.9112322295416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717679dee9379f%3A0x6f119bd3a76d9321!2sHealth+Plus+Physiotherapy!5e0!3m2!1sen!2sca!4v1558546120145!5m2!1sen!2sca" width="600" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>	</div>
-				</div>
-			</div>
-		</section>
 		
-		<section class="ftco-section contact-section">
-      <div class="container">
-        <div class="row d-flex mb-5 contact-info">
-          <div class="col-md-12 mb-4">
-            <h2 class="h4">Contact Information</h2>
-          </div>
-          <div class="w-100"></div>
-          <div class="col-md-3 d-flex">
-          	<div class="bg-light d-flex align-self-stretch box p-4">
-	            <p><span>Address:</span>#140 - 340 Midpark Way	SE, T2X 1P1</p>
+    <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter" style="background-image: url(images/bg_3.jpg);" data-stellar-background-ratio="0.5">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-6 py-5 pr-md-5">
+	          <div class="heading-section heading-section-white ftco-animate mb-5">
+	          	<span class="subheading">Appointments</span>
+	            <h2 class="mb-4">Appointment Request</h2>
+	            <p>If you have any further questions, please feel free to contact our staff.</p>
 	          </div>
-          </div>
-          <div class="col-md-3 d-flex">
-          	<div class="bg-light d-flex align-self-stretch box p-4">
-              <p><span>Phone:</span> <a href="tel://4032554461">403-255-4461</a></p>
+            <span id="outputMessage"> </span>			  
+	          <form  method='post' role="form" action="ajax/sendEmail.php" enctype="multipart/form-data" id="myform" class="appointment-form ftco-animate">
+						<div class="d-md-flex">
+		    				<div class="form-group">
+		    					<input type="text" name='name' class="form-control" placeholder="Name">
+		    				</div>
+		    				<div class="form-group ml-md-4">
+		    					<input type="email" name='email' class="form-control" placeholder="Email">
+		    				</div>
+	    				</div>
+	    				<div class="d-md-flex">
+	    					<div class="form-group">
+		    					<div class="form-field">
+          					<div class="select-wrap">
+                      <div class="icon"><span class="ion-ios-arrow-down"></span></div>
+                      <select name="service" id="" class="form-control">
+                      	<option value="" style='color:black;'>Select Your Services</option>
+                        <option value="Health Insurance & Cash" style='color:black;'>Health Insurance & Cash </option>
+                        <option value="Motor Vehicle Accident" style='color:black;'>Motor Vehicle Accident</option>
+                        <option value="Workers Compensation" style='color:black;'>Workers Compensation </option>
+                        <option value="Other Services" style='color:black;'>Other Services</option>
+                      </select>
+                    </div>
+		              </div>
+		    				</div>
+	    					<div class="form-group ml-md-4">
+		    					<input type="text" class="form-control" name='phone' placeholder="Phone">
+		    				</div>
+	    				</div>
+	    				<div class="d-md-flex">
+									<div class="form-group">
+											<textarea cols="30" rows="2" name='pMessage' class="form-control" placeholder="Message"></textarea>
+										</div>
+		    			
+	    				</div>
+	    				<div class="d-md-flex">
+									<div class="form-group">
+											<div class="input-wrap">
+												<div class="icon"><span class="ion-md-calendar"></span></div>
+												<input type="text" name='dateC' class="form-control appointment_date" placeholder="Date">
+											</div>
+										</div>
+		            <div class="form-group ml-md-4">
+		            <input type="submit" name="submitForm" value="Request Appointment" id='submitEmail' class="btn btn-secondary py-3 px-4">
+		            </div>
+	    				</div>
+	    			</form>
+    			</div>
+    			<div class="col-lg-6 p-5 bg-counter aside-stretch">
+              <h3 class="vr">About Atrium Physiotherapy Facts</h3>
+              <div class="row pt-4 mt-1">
+                <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
+                  <div class="block-18 p-5 bg-light">
+                    <div class="text">
+                      <strong class="number" data-number="28">0</strong>
+                      <span>Years of Experience</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
+                  <div class="block-18 p-5 bg-light">
+                    <div class="text">
+                      <strong class="number" data-number="7">0</strong>
+                      <span>Different Services</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
+                  <div class="block-18 p-5 bg-light">
+                    <div class="text">
+                      <strong class="number" data-number="4">0</strong>
+                      <span>Practitioners</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center counter-wrap ftco-animate">
+                  <div class="block-18 p-5 bg-light">
+                    <div class="text">
+                      <strong class="number" data-number="5">0</strong>
+                      <span>Staff</span>
+		              </div>
+		            </div>
+		          </div>
 	          </div>
-          </div>
-          <div class="col-md-3 d-flex">
-              <div class="bg-light d-flex align-self-stretch box p-4">
-                  <p><span>Fax:</span> <a href="tel://4032554461">403-259-8776</a></p>
-                </div>
-          </div>
-          <div class="col-md-3 d-flex">
-            	<div class="bg-light d-flex align-self-stretch box p-4">
-                  <p><span>Email:</span> <a href="mailto:admin@atriumphysiotherapy.com">admin@atriumphysiotherapy.com</a></p>
-                </div>
           </div>
         </div>
-      </div>
+    	</div>
     </section>
 
-	
+   
     <footer class="ftco-footer bg-blue ftco-section">
         <div class="container">
           <div class="row mb-5">
@@ -181,10 +216,13 @@
                   ></a>
                 </li> -->
                 <li class="ftco-animate">
-                  <a href="https://www.facebook.com/Atriumphysio/" target="blank"><span class="icon-facebook"></span></a>
+                  <a href="https://www.facebook.com/Atriumphysio/"
+                    target="blank"><span class="icon-facebook"></span></a>
                 </li>
                 <li class="ftco-animate">
-                  <a href="https://www.instagram.com/healthplusphysio/" target="blank"><span class="icon-instagram"></span></a>
+                  <a href="https://www.instagram.com/healthplusphysio/"
+				  target="blank"><span class="icon-instagram"></span
+                  ></a>
                 </li>
                 <li class="ftco-animate">
                   <a
@@ -199,13 +237,11 @@
               <div class="ftco-footer-widget mb-5 ml-md-4">
                 <h2 class="ftco-heading-2">Links</h2>
                 <ul class="list-unstyled">
-                    <ul class="list-unstyled">
-                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
-                        <li><a href="about.php"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
-                        <li><a href="services.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
-                        <li><a href="blog.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Blog</a></li>
-                        <li><a href="contact.php"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
-                      </ul>
+                  <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+                  <li><a href="about.php"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+                  <li><a href="services.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
+                  <li><a href="blog.html"><span class="ion-ios-arrow-round-forward mr-2"></span>Blog</a></li>
+                  <li><a href="contact.php"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
                 </ul>
               </div>
         
@@ -225,8 +261,8 @@
             </div>
             <div class="col-md">
               <div class="ftco-footer-widget mb-5">
-                <h2 class="ftco-heading-2">Operating Hours</h2>
-                <h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>Monday: 8:00am-7:00pm</h3>
+                  <h2 class="ftco-heading-2">Operating Hours</h2>
+                  <h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>Monday: 8:00am-7:00pm</h3>
                 <h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>Tuesday: 8:00am-5:00pm</h3>
                 <h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>Wednesday: 8:00am-7:00pm</h3>
                 <h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>Thursday: 8:00am-3:00pm</h3>
@@ -256,6 +292,7 @@
           </div>
         </div>
       </footer>
+    
     
   
 

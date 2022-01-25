@@ -125,11 +125,27 @@ way, behind the word mountains, far from the countries Vokalia and Consonantia, 
 	              </ul>
 	            </div>
 
- <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-                <li class="ftco-animate"><a href="https://twitter.com/HealthPlusPhysio"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="https://www.facebook.com/Atriumphysio/"><span class="icon-facebook"></span></a></li>
-								<li class="ftco-animate"><a href="https://www.instagram.com/healthplusphysio/"><span class="icon-instagram"></span></a></li>
-							<li class="ftco-animate"><a href="https://www.google.com/search?q=atriumphysiotherapy+google+reviews&rlz=1C1GCEA_enCA971CA971&oq=atriumphysiotherapy+google+reviews&aqs=chrome..69i57j69i60l3.4688j0j4&sourceid=chrome&ie=UTF-8#"><span class="icon-google"></span></a></li>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                <!-- <li class="ftco-animate">
+                  <a href="https://twitter.com/HealthPlusPhysio"
+				  target="blank"><span class="icon-twitter"></span
+                  ></a>
+                </li> -->
+                <li class="ftco-animate">
+                  <a href="https://www.facebook.com/Atriumphysio/"
+                    target="blank"><span class="icon-facebook"></span></a>
+                </li>
+                <li class="ftco-animate">
+                  <a href="https://www.instagram.com/healthplusphysio/"
+				  target="blank"><span class="icon-instagram"></span
+                  ></a>
+                </li>
+                <li class="ftco-animate">
+                  <a
+                    href="https://www.google.com/search?q=atriumphysiotherapy+google+reviews&rlz=1C1GCEA_enCA971CA971&oq=atriumphysiotherapy+google+reviews&aqs=chrome..69i57j69i60l3.4688j0j4&sourceid=chrome&ie=UTF-8#lrd=0x882b34cbaf51768b:0x460ff047a1eab903,1,,,"
+					target="blank"><span class="icon-google"></span
+                  ></a>
+                </li>
               </ul>
             </div>
           </div>
