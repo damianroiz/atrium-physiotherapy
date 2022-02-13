@@ -10493,6 +10493,15 @@ h5,
   background-image: url("/images/ims1.jpg")
 }
 
+.featured-second {
+  background-image: url("/images/golf.jpg");
+}
+
+.featured-third {
+  background-image: url("/images/art.jpg");
+}
+
+
 @media (min-width: 768px) {
   .blog-entry {
     margin-bottom: 30px;
