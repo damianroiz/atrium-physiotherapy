@@ -606,6 +606,13 @@ pre code {
   margin-left: auto;
 }
 
+.blog-thumbnail {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -7327,11 +7334,19 @@ button.bg-dark:focus {
 
 .main-container {
   position: absolute;
-  width: 100%;
-  top: 5%;
+  width: 50%;
+  max-width: 550px;
+  margin: 100px 0px 0px 50px;
 }
 
-.slogan-box {
+@media screen and (max-width: 900px) {
+  .main-container {
+    width: 100%;
+    margin: 100px 0 0 0;
+  }
+}
+
+.main-container .slogan-box {
   background: rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
@@ -7345,7 +7360,6 @@ button.bg-dark:focus {
 }
 
 .slogan-box {
-  
 }
 
 .slogan-box h1,
@@ -7353,19 +7367,18 @@ button.bg-dark:focus {
   color: #f0f8ff;
 }
 
+
 .col-md-6.text.ftco-animate {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
   border-radius: 8px;
   top: 0;
 }
 
-.mb-4 h1{
+.mb-4 h1 {
   font-size: 30px;
-  
 }
 
 .ml-4,
@@ -7377,7 +7390,6 @@ button.bg-dark:focus {
   margin: 3rem !important;
 }
 
-.mt-5,
 .my-5 {
   margin-top: 3rem !important;
 }
@@ -10050,11 +10062,15 @@ h5,
   border-bottom: 4px solid #0063c7;
 }
 
-.img-2 {
-  background-position: top center !important;
+.staff-photo {
+  max-width: 100%;
+  object-fit: contain;
+  margin-top: 3rem;
+
 }
+
 @media (max-width: 767.98px) {
-  .img-2 {
+  .staff-photo {
     height: 300px;
     margin-bottom: 40px;
   }
@@ -10463,7 +10479,7 @@ h5,
   color: #32cd32;
 }
 
-.block-20 {
+.blog-post-image {
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -10471,6 +10487,10 @@ h5,
   height: 275px;
   position: relative;
   display: block;
+}
+
+.featured-first {
+  background-image: url("/images/ims1.jpg")
 }
 
 @media (min-width: 768px) {
@@ -10858,7 +10878,7 @@ textarea.form-control {
   }
 }
 
-.heading-section .subheading {
+.heading .subheading {
   font-weight: 400;
   font-size: 16px;
   display: block;
@@ -10869,39 +10889,39 @@ textarea.form-control {
   position: relative;
 }
 
-.heading-section h2 {
+.heading h2 {
   font-size: 34px;
   font-weight: 800;
 }
 @media (max-width: 767.98px) {
-  .heading-section h2 {
+  .heading h2 {
     font-size: 28px;
   }
 }
 
-.heading-section.heading-section-white .subheading {
+.heading.heading-white .subheading {
   color: rgba(255, 255, 255, 0.7);
 }
 
-.heading-section.heading-section-white h2 {
+.heading.heading-white h2 {
   font-size: 40px;
   color: #fff;
 }
 
-.heading-section.heading-section-white p {
+.heading.heading-white p {
   color: rgba(255, 255, 255, 0.9);
 }
 
-.heading-section .category {
+.heading .category {
   text-transform: uppercase;
   font-weight: 300;
   font-size: 12px;
   letter-spacing: 2px;
 }
-.heading-section .category span a {
+.heading .category span a {
   color: #000000;
 }
-.heading-section .category span.active {
+.heading .category span.active {
   font-weight: 500;
 }
 
